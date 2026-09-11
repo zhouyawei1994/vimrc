@@ -1,7 +1,8 @@
 " Colorscheme
-"set background=dark
-set background=light
+set background=dark
+"set background=light
 colorscheme peaksea
+colorscheme papercolor
 
 set signcolumn=no
 set nu
