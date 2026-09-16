@@ -20,3 +20,6 @@ let g:AutoPairs = {}
 
  " C/C++ 括号内换行时，与左括号后的第一个字符对齐。
  autocmd FileType c,cpp setlocal cinoptions+=(0
+
+" Jump directly for one tag; list candidates when multiple tags match.
+nnoremap <C-]> g<C-]>
